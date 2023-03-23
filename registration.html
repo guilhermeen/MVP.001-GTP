@@ -1,0 +1,84 @@
+<Html>  
+    <head>   
+    <title>  
+    Pagina Cadastro 
+    </title>  
+    <link rel="stylesheet" href="styleRegistration.css">
+    </head>  
+    <body bgcolor="White">  
+    <br>  
+    <br>  
+    <form>
+    <div class="Documento"> 
+        <label>   
+            Documento :  
+            </label>   
+        
+            <select>  
+            <option value="Selecione">Selecione</option>  
+            <option value="CPF">CPF</option>  
+            <option value="CNH">CNH</option>  
+            <option value="Outro">Outro</option>  
+        
+            </select>  
+        
+        <br> <br> 
+        <label> Num. Documento: </label>         
+        <input type="text" name="documento" size="15"/> <br> <br>  
+    </div>       
+    
+    <div class="Primeira">
+        <label> Nome: </label>         
+        <input type="text" name="nome" size="15"/> <br> <br>  
+        <label> Sobrenome: </label>     
+        <input type="text" name="sobrenome" size="15"/> <br> <br>  
+        <label> Sobre você: </label>        
+        <textarea cols="30" rows="8" value="address">  
+        </textarea> 
+    </div>
+    <br><br> 
+    
+    <br>  
+      
+      
+    <div class="Segunda">
+        <label>   
+            Numero para contato:  
+        </label>     
+        <input type="text" name="numero" size="10"/> <br> <br>  
+        
+        
+        
+        <label>
+            Esse numero é seu WhatsApp?
+        </label>
+        <select>
+            <option value="Sim">Sim</option>
+            <option value="Nao">Nao</option>
+        </select>
+    </div>  
+        
+        <br> 
+
+    <div class="Final">
+        <label>
+            Endereco:
+        </label>  
+        <br>  
+        <textarea cols="30" rows="8" value="address" style="color:red;">  
+        </textarea>  
+        <br> <br>  
+        Email:  
+        <input type="email" id="email" name="email"/> <br>    
+        <br> 
+        Senha:  
+        <input type="Password" id="pass" name="pass"> <br>  
+        <br> 
+        Verifique Senha:  
+        <input type="Password" id="repass" name="repass"> <br> <br>  
+        <input type="submit" value="Enviar"/>  
+    </div>
+
+    </form>  
+    </body>  
+    </html>  

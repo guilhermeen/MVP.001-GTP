@@ -1,0 +1,45 @@
+body{
+    background-image: url("Imagens/img001.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.Documento {
+    margin: 0 auto;
+	width: 280px;
+}
+
+.Primeira {
+    margin: 0 auto;
+	width: 280px;
+}
+
+.Segunda {
+    margin: 0 auto;
+	width: 280px;
+}
+
+.Final {
+    margin: 0 auto;
+	width: 280px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+

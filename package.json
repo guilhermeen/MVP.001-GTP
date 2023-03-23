@@ -1,0 +1,16 @@
+{
+    "name": "projeto-mvp",
+    "version": "1.0.0",
+    "description": "Projeto do MVP da ONG GTP + ",
+    "main": "index.js",
+    "scripts": {
+      "start": "script.js"
+    },
+    "keywords": [
+      "keywords"
+    ],
+    "author": "Guilherme Espindola",
+    "license": "ISC",
+    "dependencies": {
+    }
+  }
